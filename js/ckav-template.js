@@ -43,8 +43,8 @@
 		/*
 		NAVIGATION
 		*********************/
-		anchors: ['intro-section', 'about-section', 'contact-section', 'subscribe-section', 'social-section'],
-		navigationTooltips: ['Intro', 'О нас', 'Контакты', 'Subscribe', 'Social'],
+		anchors: ['intro-section', 'about-section', 'classic-dab-on-section', 'production-section', 'contacts-section'],
+		navigationTooltips: ['Философия', 'О нас', 'Где купить', 'Производство', 'Контакты'],
 	}
 
 	/*----------  RESPONSIVE  ----------*/
