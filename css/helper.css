@@ -5617,7 +5617,7 @@ a,
     padding: 50px;
   }
   [data-ckav-md*="pd-60"] {
-    padding: 60px;
+    padding: 80px 20px;
   }
   [data-ckav-md*="pd-lr-10"] {
     padding-left: 10px;
