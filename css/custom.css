@@ -19,7 +19,10 @@
 /*	MOBILE & TABLET COMMON
 /*===========================================*/
 @media (min-width: 200px) and (max-width: 991px) {
-	
+	.intro-bg {
+    background: url('../images/bg-13_mob.jpg');
+    background-position: center;
+  }
 }
 
 

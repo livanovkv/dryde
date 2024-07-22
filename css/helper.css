@@ -1986,6 +1986,10 @@ blockquote {
 .bg-repeat-y {
   background-repeat: repeat-y;
 }
+.intro-bg {
+  background: url('../images/bg-13.jpg');
+  background-position: center;
+}
 /* Alignment 
 =========================*/
 .vm,
