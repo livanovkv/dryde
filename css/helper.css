@@ -79,6 +79,10 @@ body {
   line-height: 1.5;
   font-size: 14px;
 }
+iframe, object, embed {
+  max-width: 100%;
+  max-height: 100%;
+}
 [data-pageloader="y"] #page {
   opacity: 0;
 }

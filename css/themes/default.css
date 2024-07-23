@@ -843,6 +843,7 @@ h6,
 .typo-light p:not([class*="txt-"]) {
   color: #ffffff;
 }
+
 /* List classes
 =========================*/
 .dark.list-2,
