@@ -138,6 +138,7 @@ hr.light {
 }
 p {
   margin-bottom: 20px;
+  font-size: 18px;
 }
 img {
   display: block;
@@ -1880,13 +1881,16 @@ blockquote {
 /* Font family
 =========================*/
 .f-1 {
-  font-family: "SourceSansPro", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .f-2 {
   font-family: "SourceSansPro", sans-serif;
 }
 .f-3 {
   font-family: 'SourceSansPro', sans-serif;
+}
+.f-3-intro {
+  font-family: 'Rancho', cursive;
 }
 [class*="link-"]:hover {
   text-decoration: underline;

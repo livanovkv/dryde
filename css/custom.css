@@ -80,11 +80,12 @@
     font-weight: 700;
     margin-bottom: 10px;
 }
+
 .block3 {
   font-family: "SourceSansPro";
   font-weight: 300;
   font-size: 16px;
-  color: #002a3a;
+  color: #888888;
   min-height: 70px;
   margin-top: 20px;
   display: flex;
