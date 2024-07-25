@@ -709,18 +709,16 @@ h6,
 .hd-5,
 .hd-6,
 .title-sub {
-  color: #888888;
+  color: #002a3a;
 }
 .block3 p {
   font-family: 'SourceSansPro', sans-serif;
   font-size: 22px;
   text-decoration: none;
-  color: #808080;
 }
 .block3 a {
   font-family: 'SourceSansPro', sans-serif;
   font-size: 18px;
-  color: #808080;
 }
 .block3 img {
   margin-right: 30px;
@@ -731,7 +729,7 @@ h6,
   font-family: 'SourceSansPro', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #888888;
+  color: #002a3a;
   min-height: 70px;
   margin-top: 20px;
   display: flex;
@@ -756,9 +754,6 @@ h6,
 .icon2 {
   background-image: url('icon.png');
   animation: rotate 10s linear infinite;
-}
-.buy__icons-block {
-  margin-bottom: 10px;
 }
 .buy__icons-name {
   font-size: 16px;
@@ -845,7 +840,6 @@ h6,
 .typo-light p:not([class*="txt-"]) {
   color: #ffffff;
 }
-
 /* List classes
 =========================*/
 .dark.list-2,
