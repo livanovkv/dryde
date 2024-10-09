@@ -709,7 +709,7 @@ h6,
 .hd-5,
 .hd-6,
 .title-sub {
-  color: #888888;
+  color: #002a3a;
 }
 .block3 p {
   font-family: 'SourceSansPro', sans-serif;
@@ -729,7 +729,7 @@ h6,
   font-family: 'SourceSansPro', sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #888888;
+  color: #002a3a;
   min-height: 70px;
   margin-top: 5px;
   display: flex;
