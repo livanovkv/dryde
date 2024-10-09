@@ -1385,37 +1385,37 @@ h6,
 h1,
 .hd-1 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h2,
 .hd-2 {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h3,
 .hd-3 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h4,
 .hd-4 {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h5,
 .hd-5 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h6,
 .hd-6 {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 10px;
 }
 h1.bdr-b {
