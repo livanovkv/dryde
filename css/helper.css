@@ -100,7 +100,7 @@ iframe, object, embed {
 a,
 a:hover,
 a:focus {
-  font-family: "SourceSansPro";
+  font-family: "SourceSansPro", sans-serif;
   color: inherit;
   text-decoration: none;
   outline: 0;
