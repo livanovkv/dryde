@@ -109,3 +109,118 @@
   font-size: 16px;
   color: #ff5000;
 }
+
+.years__documents {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0.9375rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  background: #ffffff;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.years__documents:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.years__documents:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+}
+
+.years__documents_popup {
+  margin: 5px 0;
+  border: none;
+  color: #8e8e8e;
+}
+
+.years__documents_popup:not(:last-child) {
+  margin-bottom:5px;
+}
+
+.years__documents_popup:hover {
+  border: none;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+}
+
+.years__document-icon {
+  width: 1.9375rem;
+  height: 2.5rem;
+  margin: 0.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.years__document-icon_popup {
+  margin: 0.625rem 0.625rem 0.625rem 0;
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+}
+.years__link {
+  color: #fd4f00;
+}
+
+.years__document-link {
+  font-weight: 400;
+  color: #8e8e8e;
+}
+
+
+
+.years__document-link_popup {
+  color: #8e8e8e;
+}
+
+.mt-5, .my-5 {
+  margin-top: 10px !important;
+}
+.tab-content p {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  color: #212529;
+}
+@media screen and (max-width: 1024px) {
+  .tab-content p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.tabs__body_scrollbar {
+  overflow: auto;
+}
+
+.GFG {
+  column-count: 2;
+  column-gap: 30px;
+  /* Adjust the gap between columns */
+}
+
+@media screen and (max-width: 768px) {
+  .GFG {
+    column-count: 1;
+  }
+}

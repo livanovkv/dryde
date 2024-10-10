@@ -138,7 +138,7 @@ hr.light {
 }
 p {
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
 img {
   display: block;
@@ -2113,6 +2113,7 @@ blockquote {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          padding: 80px 20px;
 }
 .info-obj.align-r .iconwrp,
 .flex-cr {
@@ -2353,7 +2354,7 @@ blockquote {
   padding: 50px;
 }
 .pd-60 {
-  padding: 60px;
+  padding: 80px 20px;
 }
 .pd-70 {
   padding: 70px;
@@ -2449,7 +2450,7 @@ blockquote {
   padding-bottom: 5px;
 }
 .pd-b-0 {
-  padding-bottom: 0px;
+  padding: 30px;
 }
 .pd-b-10 {
   padding-bottom: 10px;
