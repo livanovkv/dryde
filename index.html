@@ -220,23 +220,27 @@
 
         <!-- PARTICLE -->
         <div class="full-wh nc-background nc-bgeffect">
+          <video class="embed-responsive-item" data-autoplay="1" loop="" muted="1" autoplay="autoplay" playsinline="">
+            <source src="https://www.pfeiffer-gmbh.de/vd/Webfilm_Produktion.mp4" type="video/mp4">
+            <p data-lang-de="Your browser does not support HTML5 video." data-lang-en="Your browser does not support HTML5 video.">Your browser does not support HTML5 video.</p>
+          </video>
           <div id="particles-js"></div>
         </div><!-- / PARTICLE -->
 
         <!--=================================
 				= CONTENT
 				==================================-->
-        <div class="ckav-section--content z9 pd-80 animated s008" data-animIn="fadeInUp|0.0"
+        <div class="ckav-section--content z9 animated s008 first" data-animIn="fadeInUp|0.0"
           data-animOut="fadeOutUp|0.0" data-ckav-sm="pd-40">
 
           <!-- INTRO-TEXT -->
           <div class="ckav-title">
-            <h1 class="title f-3-intro bold-1 italic with-sep sep-right sep-light mr-b-0 animated s008"
+            <h1 class="title f-3-intro bold-1 italic with-sep sep-right sep-light mr-b-0 s008"
               data-animIn="fadeInUp|0.1" data-ckav-sm="fs20">
               <span>Мы уверены, что ни один человек не должен испытывать дискомфорт и неудобства связанные с личной
                 гигиеной.</span>
             </h1>
-            <h1 class="title xxlarge f-1 bold-4 mr-b-0 animated s008" data-animIn="fadeInUp|0.2" data-ckav-md="fs60"
+            <h1 class="title xxlarge f-1 bold-4 mr-b-0 s008" data-animIn="fadeInUp|0.2" data-ckav-md="fs60"
               data-ckav-sm="fs30">
               Свежесть тела и свобода движений важны для каждого.
             </h1>
@@ -336,7 +340,8 @@
 
             <!-- RIGHT -->
             <div class="col-lg-5 flex-cc" data-ckav-md="pd-60" data-ckav-sm="pd-40">
-              <div class="inner-wrapper mr-auto animated s008" data-animIn="fadeInUp|0.0" data-animOut="fadeOutUp|0.0">
+              <div class="inner-wrapper mr-auto animated s008 auto-height" data-animIn="fadeInUp|0.0"
+                data-animOut="fadeOutUp|0.0">
 
                 <h1 class="title large f-3 animated s008 fadeInUp" data-animIn="fadeInUp|0.2">
                   Антиперспирант/средство от обильного потоотделения.</h1>
@@ -344,121 +349,204 @@
                   DRYDRYDE Classic Dab-on<br>
                   - эффективное средство длительного действия от обильного потоотделения
                 </h2>
-                <div class="block3">
-                  <img src="images/1.png" align="left" class="icon" alt="">
-                  <p style="float:right;"><a class="block3__link"
-                      href="./files_doc/Expert_opinion_118_effectiveness_up_to_7_days_from_06_17_2024.pdf"
-                      target="_blank">Эффективен с первого применения до 7 дней*
-                    </a></p>
-                </div>
-                <div class="block3">
-                  <img src="images/2.png" align="left" class="icon" alt="">Одного флакона хватает минимум на 6 месяцев
-                </div>
-                <div class="block3">
-                  <img src="images/3.png" align="left" class="icon" alt="">
-                  <a class="block3__link"
-                    href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic.pdf"
-                    target="_blank">Безопасность доказана клиническими исследованиями
-                  </a>
-                </div>
-                <div class="block3">
-                  <img src="images/doc_ico.png" align="left" class="icon" alt=""><a class="block3__link"
-                    href="./files_doc/Declaration_of_DRYDRY_DE_Classic_dated_03_21_2024.pdf" target="_blank">Декларация
-                    соответствия</a>
+
+                <div class="container mt-5">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link nav-link__product active" data-toggle="tab" href="#tabs-1"
+                        role="tab">Преимущества</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-2" role="tab">Где купить</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-3"
+                        role="tab">Характеристики</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-4" role="tab">Документы</a>
+                    </li>
+                  </ul>
+
+                  <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div class="tab-pane p-3 active" id="tabs-1" role="tabpanel">
+                      <div class="block3">
+                        <img src="images/1.png" align="left" class="icon" alt="">
+                        <a class="block3__link"
+                          href="./files_doc/Expert_opinion_118_effectiveness_up_to_7_days_from_06_17_2024.pdf"
+                          target="_blank">Эффективен с первого применения до 7 дней*
+                        </a>
+                      </div>
+                      <div class="block3">
+                        <img src="images/2.png" align="left" class="icon" alt="">Одного флакона хватает минимум на 6
+                        месяцев
+                      </div>
+                      <div class="block3">
+                        <img src="images/3.png" align="left" class="icon" alt="">
+                        <a class="block3__link"
+                          href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic.pdf"
+                          target="_blank">Безопасность доказана клиническими исследованиями
+                        </a>
+                      </div>
+                      <div class="block3">
+                        <img src="images/doc_ico.png" align="left" class="icon" alt=""><a class="block3__link"
+                          href="./files_doc/Declaration_of_DRYDRY_DE_Classic_dated_03_21_2024.pdf"
+                          target="_blank">Декларация
+                          соответствия</a>
+                      </div>
+                    </div>
+                    <div class="tab-pane p-3 active" id="tabs-2" role="tabpanel">
+                      <div class="buy__icons-block">
+                        <div class="buy__icons-name">Где купить (производство Германия):</div>
+                        <div class="marketplace__list_mini">
+                          <a href="https://www.wildberries.ru/catalog/238913849/detail.aspx"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/wb.png" alt="wildberries.ru">
+                            </div>
+                          </a>
+                          <a href="https://www.ozon.ru/product/dezodorant-antiperspirant-dry-dry-dabomatik-35-ml-1608947896/"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/ozon.png" alt="Ozon">
+                            </div>
+                          </a>
+                          <a href="https://apteka.ru/product/drydry-de-classic-effektivnoe-sredstvo-dlitelnogo-dejstviya-ot-obilnogo-potootdeleniya-35-ml-66cf0da7e87c434061dfdbcb/"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/apteka.png" alt="AptekaRu">
+                            </div>
+                          </a>
+                          <br>
+
+                        </div>
+                      </div>
+                      <div class="buy__icons-block">
+                        <div class="buy__icons-name">Где купить (производство Швеция):</div>
+                        <div class="marketplace__list_mini">
+                          <a href="https://www.wildberries.ru/catalog/147321534/detail.aspx"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/wb.png" alt="wildberries.ru">
+                            </div>
+                          </a>
+                          <a href="https://ozon.ru/product/dry-dry-classic-antiperspirant-dlitelnogo-deystviya-draydray-876651407/?utm_source=Shop-drydry&amp;utm_medium=product&amp;utm_campaign=vendor_org_638980_site-drydry&amp;hs=1"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/ozon.png" alt="Ozon">
+                            </div>
+                          </a>
+                          <a href="https://apteka.ru/product/drydry-classic-sredstvo-dlitelnogo-dejstviya-ot-obilnogo-potootdeleniya-35-ml-5e326be6ca7bdc000192ea84/"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/apteka.png" alt="AptekaRu">
+                            </div>
+                          </a>
+                          <a href="https://zdravcity.ru/p_draj-draj-sr-vo-ot-obilnogo-potovydelenija-dlitelnogo-dejstvija-35ml-0009108.html"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/zdravcity.png" alt="zdravcity.ru">
+                            </div>
+                          </a>
+                          <a href="https://planetazdorovo.ru/catalog/kosmetika/ukhod-za-telom/dezodoranty/dry-dry-draj-draj-sredstvo-ot-22785203/"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/planeta_zdorov.png" alt="planetazdorovo.ru">
+                            </div>
+                          </a>
+                          <a href="https://megapteka.ru/moskva/catalog/sredstva-dlya-tela-37/draj-draj-sredstvo-42289"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/megapteka.png" alt="megapteka.ru">
+                            </div>
+                          </a>
+                          <a href="https://goldapple.ru/97670100003-dlja-tela"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/golapple.png" alt="goldapple.ru">
+                            </div>
+                          </a>
+                          <a href="https://www.r-ulybka.ru/u-catalog/goods/87615/"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/r_ulybka.png" alt="r-ulybka.ru">
+                            </div>
+                          </a>
+                          <a href="https://vkusvill.ru/goods/drydry-classic-sredstvo-ot-obilnogo-potovydeleniya-dlitelnogo-deystviya-35-ml-207385.html"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/vkusswill.png" alt="vkusvill.ru">
+                            </div>
+                          </a>
+                          <a href="https://aliexpress.ru/item/1005006857320777.html?spm=a2g38.sc_product_list.0.0.adf52304KI58q1&amp;gatewayAdapt=glo2rus&amp;sku_id=12000038533233013"
+                            class="marketplace__item marketplace__item_mini" target="_blank">
+                            <div class="marketplace__item-image_mini">
+                              <img src="./images/market_icons/aliexpress.png" alt="aliexpress.ru">
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane p-3" id="tabs-3" role="tabpanel">
+                      <div class="GFG">
+                        <p style="text-align: justify;">
+                          <b>Форма выпуска / объем:</b> Бесцветная прозрачная жидкость без парфюмированного запаха во
+                          флаконе Dab-On (Дабоматик) / 35 мл.
+                          <br>
+                          <b>Ingredients (INCI):</b> Alcohol Denat (76.5% ob.)(T-butyl Alcohol, Denatonium Benzoate),
+                          Aluminum Chloride.<br>
+                          <b>Состав: Денатурированный Спирт (76,5% об.) (Т-бутиловый Спирт, Денатониум Бензоат), Хлорид
+                            Алюминия. </b>
+                          <br>
+                          <b>Противопоказания:</b> перед применением DRYDRY Classic необходимо проконсультироваться с
+                          лечащим врачом лицам моложе 18 лет, беременным и кормящим женщинам, а также выраженным
+                          аллергикам.<br>
+
+                          <b>Специальные условия:</b> хранить плотно закрытым при температуре от +5С до +25С<br>
+
+                          Не использовать вблизи открытого огня. Строго вертикальное хранение.<br>
+
+                          <b>Изготовитель: </b>«Лексима АБ», Швеция, LEXIMA AB, Box 53063, 400 14 Gothenburg, SWEDEN<br>
+
+                          Не является лекарственным средством.<br>
+
+                          Продукция изготовлена согласно ISO 13485:2012 и SS-EN ISO 9001:2008, а также отвечает
+                          требованию EU по GMP (GMP EU класс D)<br>
+
+                          <b>Примечание: </b>производитель оставляет за собой право вносить незначительные изменения в
+                          дизайн, комплектацию, а так же конструктивные изменения, не затрагивая потребительских свойств
+                          товара. Информацию о товаре Вы всегда можете уточнить у наших менеджеров по телефону: +7 495
+                          512 55 55
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tab-pane p-3" id="tabs-4" role="tabpanel">
+                      <div class="GFG">
+
+                        <div class="years__documents years__documents_popup">
+                          <img src="/images/documents.svg" alt=""
+                            class="years__document-icon years__document-icon_popup">
+                          <a href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic.pdf"
+                            target="_blank" class="years__link years__link_popup" tabindex="0">
+                            Безопасность доказана клиническими исследованиями</a>
+                        </div>
+                        <div class="years__documents years__documents_popup">
+                          <img src="/images/documents.svg" alt=""
+                            class="years__document-icon years__document-icon_popup">
+                          <a href="./files_doc/Declaration_of_DRYDRY_DE_Classic_dated_03_21_2024.pdf" target="_blank"
+                            class="years__link years__link_popup" tabindex="0">
+                            Декларация соответствия</a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <br>
-                <div class="buy__icons-block">
-                  <div class="buy__icons-name">Где купить (производство Германия):</div>
-                  <div class="marketplace__list_mini">
-                    <a href="https://www.wildberries.ru/catalog/238913849/detail.aspx"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/wb.png" alt="wildberries.ru">
-                      </div>
-                    </a>
-                    <a href="https://www.ozon.ru/product/dezodorant-antiperspirant-dry-dry-dabomatik-35-ml-1608947896/"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/ozon.png" alt="Ozon">
-                      </div>
-                    </a>
-                    <a href="https://apteka.ru/product/drydry-de-classic-effektivnoe-sredstvo-dlitelnogo-dejstviya-ot-obilnogo-potootdeleniya-35-ml-66cf0da7e87c434061dfdbcb/"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/apteka.png" alt="AptekaRu">
-                      </div>
-                    </a>
-                    <br>
 
-                  </div>
-                </div>
-                <div class="buy__icons-block">
-                  <div class="buy__icons-name">Где купить (производство Швеция):</div>
-                  <div class="marketplace__list_mini">
-                    <a href="https://www.wildberries.ru/catalog/147321534/detail.aspx"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/wb.png" alt="wildberries.ru">
-                      </div>
-                    </a>
-                    <a href="https://ozon.ru/product/dry-dry-classic-antiperspirant-dlitelnogo-deystviya-draydray-876651407/?utm_source=Shop-drydry&amp;utm_medium=product&amp;utm_campaign=vendor_org_638980_site-drydry&amp;hs=1"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/ozon.png" alt="Ozon">
-                      </div>
-                    </a>
-                    <a href="https://apteka.ru/product/drydry-classic-sredstvo-dlitelnogo-dejstviya-ot-obilnogo-potootdeleniya-35-ml-5e326be6ca7bdc000192ea84/"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/apteka.png" alt="AptekaRu">
-                      </div>
-                    </a>
-                    <a href="https://zdravcity.ru/p_draj-draj-sr-vo-ot-obilnogo-potovydelenija-dlitelnogo-dejstvija-35ml-0009108.html"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/zdravcity.png" alt="zdravcity.ru">
-                      </div>
-                    </a>
-                    <a href="https://planetazdorovo.ru/catalog/kosmetika/ukhod-za-telom/dezodoranty/dry-dry-draj-draj-sredstvo-ot-22785203/"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/planeta_zdorov.png" alt="planetazdorovo.ru">
-                      </div>
-                    </a>
-                    <a href="https://megapteka.ru/moskva/catalog/sredstva-dlya-tela-37/draj-draj-sredstvo-42289"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/megapteka.png" alt="megapteka.ru">
-                      </div>
-                    </a>
-                    <a href="https://goldapple.ru/97670100003-dlja-tela"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/golapple.png" alt="goldapple.ru">
-                      </div>
-                    </a>
-                    <a href="https://www.r-ulybka.ru/u-catalog/goods/87615/"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/r_ulybka.png" alt="r-ulybka.ru">
-                      </div>
-                    </a>
-                    <a href="https://vkusvill.ru/goods/drydry-classic-sredstvo-ot-obilnogo-potovydeleniya-dlitelnogo-deystviya-35-ml-207385.html"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/vkusswill.png" alt="vkusvill.ru">
-                      </div>
-                    </a>
-                    <a href="https://aliexpress.ru/item/1005006857320777.html?spm=a2g38.sc_product_list.0.0.adf52304KI58q1&amp;gatewayAdapt=glo2rus&amp;sku_id=12000038533233013"
-                      class="marketplace__item marketplace__item_mini" target="_blank">
-                      <div class="marketplace__item-image_mini">
-                        <img src="./images/market_icons/aliexpress.png" alt="aliexpress.ru">
-                      </div>
-                    </a>
-                  </div>
-                </div>
 
-                <p style="font-size:16px;">*-Согласно экспертного заключения №118 ООО "Центр Эстетической Медицины и
+                <p style="font-size:10px;">*-Согласно экспертного заключения №118 ООО "Центр Эстетической Медицины и
                   Экспертизы" от 17.06.24г.</p>
                 <hr class="px-w200 mr-auto mr-tb-tiny animated s008" data-animIn="fadeInUp|0.4">
 
@@ -492,46 +580,53 @@
                   <br>
                   - эффективное средство длительного действия от обильного потоотделения
                 </h2>
-                <div class="block3">
-                  <img src="images/1.png" align="left" class="icon" alt="">
-                  <a class="block3__link"
-                    href="./files_doc/Expert_opinion_118a_dermatologically_tested_from_06_17_2024.pdf"
-                    target="_blank">Эффективен с первого применения до 7 дней*</a>
-                </div>
-                <div class="block3">
-                  <img src="images/2.png" align="left" class="icon" alt="">Одного флакона хватает минимум на 6 месяцев
-                </div>
-                <div class="block3">
-                  <img src="images/3.png" align="left" class="icon" alt="">
-                  <a class="block3__link"
-                    href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic_Roll-on.pdf"
-                    target="_blank">Безопасность доказана клиническими исследованиями</a>
-                </div>
-                <div class="block3">
-                  <img src="images/doc_ico.png" align="left" class="icon" alt="">
-                  <a class="block3__link"
-                    href="./files_doc/Declaration_of_DRYDRY_DE_Classic_Roll-on_dated_03_21_2024.pdf"
-                    target="_blank">Декларация соответствия</a>
-                </div>
+               
                 <br>
                 <div class="container mt-5">
                   <ul class="nav nav-tabs" role="tablist">
                     <li class="nav-item">
-                      <a class="nav-link nav-link__product active" data-toggle="tab" href="#tabs-1" role="tab">Где
+                      <a class="nav-link nav-link__product active" data-toggle="tab" href="#tabs-5"
+                        role="tab">Преимущества</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-6" role="tab">Где
                         купить</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-2"
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-7"
                         role="tab">Характеристики</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-3" role="tab">Документы</a>
+                      <a class="nav-link nav-link__product" data-toggle="tab" href="#tabs-8" role="tab">Документы</a>
                     </li>
                   </ul>
-                  
+
                   <!-- Tab panes -->
                   <div class="tab-content">
-                    <div class="tab-pane p-3 active" id="tabs-1" role="tabpanel">
+                    <div class="tab-pane p-3 active" id="tabs-5" role="tabpanel">
+                      <div class="block3">
+                        <img src="images/1.png" align="left" class="icon" alt="">
+                        <a class="block3__link"
+                          href="./files_doc/Expert_opinion_118a_dermatologically_tested_from_06_17_2024.pdf"
+                          target="_blank">Эффективен с первого применения до 7 дней*</a>
+                      </div>
+                      <div class="block3">
+                        <img src="images/2.png" align="left" class="icon" alt="">Одного флакона хватает минимум на 6 месяцев
+                      </div>
+                      <div class="block3">
+                        <img src="images/3.png" align="left" class="icon" alt="">
+                        <a class="block3__link"
+                          href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic_Roll-on.pdf"
+                          target="_blank">Безопасность доказана клиническими исследованиями</a>
+                      </div>
+                      <div class="block3">
+                        <img src="images/doc_ico.png" align="left" class="icon" alt="">
+                        <a class="block3__link"
+                          href="./files_doc/Declaration_of_DRYDRY_DE_Classic_Roll-on_dated_03_21_2024.pdf"
+                          target="_blank">Декларация соответствия</a>
+                      </div>
+                    </div>
+                    <div class="tab-pane p-3" id="tabs-6" role="tabpanel">
                       <div class="buy__icons-block">
                         <div class="buy__icons-name">Где купить (производство Германия):</div>
                         <div class="marketplace__list_mini">
@@ -624,122 +719,70 @@
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane p-3" id="tabs-2" role="tabpanel">
+                    <div class="tab-pane p-3" id="tabs-7" role="tabpanel">
                       <div class="GFG">
                         <p style="text-align: justify;">
-                          <b>Форма выпуска&nbsp;/ объем</b>: бесцветная прозрачная жидкость без парфюмированного запаха во флаконе Roll-On (Ролик) / 35 мл.
-                         </p>
-                         <p>
+                          <b>Форма выпуска&nbsp;/ объем</b>: бесцветная прозрачная жидкость без парфюмированного запаха
+                          во флаконе Roll-On (Ролик) / 35 мл.
+                        </p>
+                        <p>
                           <br>
-                          <b>Ingredients (INCI):</b> Alcohol Denat (76.5% ob.)(T-butyl Alcohol, Denatonium Benzoate), Aluminum Chloride, PPG-15 Stearyl Ethear.<br>
-                          <b>Состав:</b> Денатурированный Спирт (76,5% об.) (Т-бутиловый Спирт, Денатониум Бензоат), Хлорид Алюминия, ППГ-15 Стеариловый Эфир.<br>
+                          <b>Ingredients (INCI):</b> Alcohol Denat (76.5% ob.)(T-butyl Alcohol, Denatonium Benzoate),
+                          Aluminum Chloride, PPG-15 Stearyl Ethear.<br>
+                          <b>Состав:</b> Денатурированный Спирт (76,5% об.) (Т-бутиловый Спирт, Денатониум Бензоат),
+                          Хлорид Алюминия, ППГ-15 Стеариловый Эфир.<br>
                           <br>
-                          <b>Противопоказания</b>: перед применением DRYDRY Classic необходимо проконсультироваться с лечащим врачом лицам моложе 16 лет, беременным и кормящим женщинам, а также выраженным аллергикам.<br>
+                          <b>Противопоказания</b>: перед применением DRYDRY Classic необходимо проконсультироваться с
+                          лечащим врачом лицам моложе 16 лет, беременным и кормящим женщинам, а также выраженным
+                          аллергикам.<br>
                           <br>
                           <b>Специальные условия:</b> хранить плотно закрытым при температуре от +5С до +25С.<br>
                           <br>
-                            Не использовать вблизи открытого огня<br>
-                            Строго вертикальное хранение<br>
+                          Не использовать вблизи открытого огня<br>
+                          Строго вертикальное хранение<br>
                           <br>
-                          <b>Изготовитель:</b>&nbsp;«Лексима АБ», Швеция, LEXIMA AB, Box 53063, 400 14 Gothenburg, SWEDEN<br>
+                          <b>Изготовитель:</b>&nbsp;«Лексима АБ», Швеция, LEXIMA AB, Box 53063, 400 14 Gothenburg,
+                          SWEDEN<br>
                           <br>
-                            Не является лекарственным средством.<br>
+                          Не является лекарственным средством.<br>
                           <br>
-                            Продукция изготовлена согласно ISO 13485:2012 и SS-EN ISO 9001:2008, а также отвечает требованию EU по GMP (GMP EU класс D)<br>
+                          Продукция изготовлена согласно ISO 13485:2012 и SS-EN ISO 9001:2008, а также отвечает
+                          требованию EU по GMP (GMP EU класс D)<br>
                           <br>
-                          <b>Примечание: </b>производитель оставляет за собой право вносить незначительные изменения в дизайн, комплектацию, а так же конструктивные изменения, не затрагивая потребительских свойств товара. Информацию о товаре Вы всегда можете уточнить у наших менеджеров по телефону: +7 495 512 55 55
-                         </p>
+                          <b>Примечание: </b>производитель оставляет за собой право вносить незначительные изменения в
+                          дизайн, комплектацию, а так же конструктивные изменения, не затрагивая потребительских свойств
+                          товара. Информацию о товаре Вы всегда можете уточнить у наших менеджеров по телефону: +7 495
+                          512 55 55
+                        </p>
+                      </div>
                     </div>
-                    </div>
-                    <div class="tab-pane p-3" id="tabs-3" role="tabpanel">
+                    <div class="tab-pane p-3" id="tabs-8" role="tabpanel">
                       <div class="GFG">
 
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/4ec/rhwz5m9e6440nteqgt496fg8qfyqms1k.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          Одобрено дерматологами </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/4ec/rhwz5m9e6440nteqgt496fg8qfyqms1k.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          МЕДИЦИНСКИЙ НАУЧНО-ДИАГНОСТИЧЕСКИЙ ЦЕНТР "КосмоПродТест" </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/5d9/sp77herb4ew3wcysp963a261le8kdns8.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          ЗАКЛЮЧЕНИЕ ПО ОЦЕНКЕ ПОТРЕБИТЕЛЬСКИХ СВОЙСТВ ПАРФЮМЕРНО-КОСМЕТИЧЕСКОЙ ПРОДУКЦИИ </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/1bf/120acvmkpc0qkdwtypxftj3yyui4lnhu.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          Клинические исследования. Оценка эффективности и безопасности DRYDRY Classic* </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/19a/01qg2wl8wvi6t844m5q4io2o9k4kfy8d.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          ПРОТОКОЛ КЛИНИЧЕСКИХ ИСПЫТАНИЙ </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/508/ke3vts43tkzlqskke4gjuhzoqp9toumg.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          Научно-исследовательская работа. Оценка безопасности. </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/4ff/7absacpajbwobjl3xu105ju7jtg63u2w.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          СЕРТИФИКАТ FSC </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/508/ke3vts43tkzlqskke4gjuhzoqp9toumg.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          Научно-исследовательская работа. Оценка безопасности. </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/506/v17axw0hfe9dwcw1evlf8h0qxj4tiyuf.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          ЕЭС ДЕКЛАРАЦИЯ О СООТВЕТСТВИИ </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/826/iqabpc6ah6srr5vow9pmddqyq5nux8k5.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          ЗАКЛЮЧЕНИЕ О БЕЗОПАСНОСТИ от 2023г. </a>
-                      </div>
-                      <div class="years__documents years__documents_popup">
-                        <img src="/images/documents.svg" alt=""
-                          class="years__document-icon years__document-icon_popup">
-                        <a href="/upload/iblock/b23/gk7eygg0b79q635i0k1b130wxw5ey3rm.pdf" target="_blank"
-                          class="years__link years__link_popup" tabindex="0">
-                          ОЦЕНКА ЭФФЕКТИВНОСТИ от 2023г. </a>
+                        <div class="years__documents years__documents_popup">
+                          <img src="/images/documents.svg" alt=""
+                            class="years__document-icon years__document-icon_popup">
+                          <a href="./files_doc/Test_report_12-1-032_1_2024_dated_03_18_2024_DRYDRY_DE_Classic_Roll-on.pdf"
+                            target="_blank" class="years__link years__link_popup" tabindex="0">
+                            Безопасность доказана клиническими исследованиями</a>
+                        </div>
+                        <div class="years__documents years__documents_popup">
+                          <img src="/images/documents.svg" alt=""
+                            class="years__document-icon years__document-icon_popup">
+                          <a href="./files_doc/Declaration_of_DRYDRY_DE_Classic_Roll-on_dated_03_21_2024.pdf"
+                            target="_blank" class="years__link years__link_popup" tabindex="0">
+                            Декларация соответствия</a>
+                        </div>
+
                       </div>
                     </div>
                   </div>
-                </div>
                 </div>
 
 
                 <br>
 
-                <p style="font-size:16px;">*-Согласно экспертного заключения №118а ООО "Центр Эстетической Медицины и
+                <p style="font-size:10px;">*-Согласно экспертного заключения №118а ООО "Центр Эстетической Медицины и
                   Экспертизы" от 17.06.24г.</p>
                 <hr class="px-w200 mr-auto mr-tb-tiny animated s008" data-animIn="fadeInUp|0.4">
 

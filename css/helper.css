@@ -142,8 +142,8 @@ p {
 }
 img {
   display: block;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 60px;
+  max-height: 60px;
 }
 .el-parallax {
   top: 0px;
@@ -1444,7 +1444,7 @@ h6.bdr-b {
 }
 .title {
   font-size: 36px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .title.xxlarge {
   font-size: 80px;
@@ -1456,10 +1456,10 @@ h6.bdr-b {
   font-size: 28px;
 }
 .title.small {
-  font-size: 18px;
+  font-size: 14px;
 }
 .title.mini {
-  font-size: 18px;
+  font-size: 14px;
 }
 .title.tiny {
   font-size: 16px;
@@ -1852,7 +1852,7 @@ blockquote {
   font-weight: 200;
 }
 .bold-1 {
-  font-weight: 300;
+  font-weight: 500;
 }
 .bold-2 {
   font-weight: 400;

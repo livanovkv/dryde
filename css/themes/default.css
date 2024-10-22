@@ -713,25 +713,22 @@ h6,
 }
 .block3 p {
   font-family: 'SourceSansPro', sans-serif;
-  font-size: 22px;
+  font-size: 14px;
   text-decoration: none;
 }
 .block3 a {
   font-family: 'SourceSansPro', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 .block3 img {
-  margin-right: 30px;
-  margin-left: 30px;
-  margin-bottom: 15px;
+margin: 0px;
 }
 .block3 {
   font-family: 'SourceSansPro', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 14px;
   color: #002a3a;
-  min-height: 70px;
-  margin-top: 5px;
+  min-height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -756,8 +753,8 @@ h6,
   animation: rotate 10s linear infinite;
 }
 .buy__icons-name {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 500;
   color: #ff5000;
 }
 
@@ -793,8 +790,8 @@ h6,
   flex-wrap: wrap;
 }
 .marketplace__item-image_mini {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   -ms-flex-preferred-size: 1.875rem;
   flex-basis: 1.875rem;
   -webkit-filter: grayscale(1);
