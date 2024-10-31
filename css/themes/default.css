@@ -712,23 +712,23 @@ h6,
   color: #002a3a;
 }
 .block3 p {
-  font-family: 'SourceSansPro', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   text-decoration: none;
 }
 .block3 a {
-  font-family: 'SourceSansPro', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 .block3 img {
 margin: 0px;
 }
 .block3 {
-  font-family: 'SourceSansPro', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #002a3a;
-  min-height: 60px;
+  min-height: 35px;
   display: flex;
   flex-direction: row;
   align-items: center;

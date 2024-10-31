@@ -46,6 +46,12 @@
     background: url('../images/bg-13_mob.jpg');
     background-position: center;
   }
+	.r-img{
+		order: -1;
+	}
+	.tab-pane{
+		min-height: auto !important;
+	}
 
 }
 
@@ -201,7 +207,7 @@
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 10px;
-  color: #212529;
+  color: #002a3a;
 }
 @media screen and (max-width: 1024px) {
   .tab-content p {
@@ -214,6 +220,7 @@
 }
 .tab-pane {
   min-height: 500px;
+  max-width: 600px;
 }
 .GFG {
   column-count: 2;
@@ -234,7 +241,7 @@
   justify-content: space-around;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .nav {
     flex-direction: column;
   }
@@ -261,11 +268,29 @@
   margin-left: 10px;
   margin-right: auto;
 }
+@media screen and (max-width: 768px) {
+  .title.with-sep {
+    width: 100%;
+    height: 30%;
+    margin-right: 0;
+    margin-right: 0;
+    margin-top: auto;
+  }
+}
 .ckav-section .first{
-  background-color: #ff5000;
+  background-color: #002a3a;
   height: 100%;
   width: 40%;
   margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+  .ckav-section .first {
+    width: 100%;
+    height: 30%;
+    margin-right: 0;
+    margin-right: 0;
+    margin-top: auto;
+  }
 }
 
 .title.xxlarge {
@@ -275,6 +300,62 @@
   margin-left: 10px;
   text-align: center;
 }
+@media screen and (max-width: 1024px) {
+  .title.xxlarge {
+    font-size: 36px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title.xxlarge {
+    font-size: 36px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 28px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+    width: 100%
+  }
+}
 .embed-responsive-item {
   height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .embed-responsive-item {
+    height: 75%;
+    width: auto;
+  }
+}
+
+.bg-cc{
+	height: inherit;
+	background-size: cover;
+}
+.min-vh-h100{
+	height: inherit;
+}
+.container-fluid{
+	height: inherit;
+}
+.flex-cc{
+	padding: 2% 20px;
+}
+#fp-nav{
+	text-shadow: 0px 0px 1px black;
+}
+#fp-nav ul li span{
+    box-shadow: 0px 0px 1px gray;
+}
+@media screen and (max-height: 600px){
+	.mr-auto{
+		zoom: 80%;
+	}
 }
